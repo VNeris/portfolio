@@ -242,4 +242,39 @@ html {
   }
 
 }
+ .dynamic-texts {
+  line-height:70px;
+  height: 70px;
+  overflow: hidden;
+}
+
+.dynamic-texts li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: #a46adf;
+  font-weight: 500;
+  top: 0;
+  position: relative;
+  animation: slide 18s steps(6) infinite;
+}
+
+.dynamic-texts li::after {
+  content:"";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width:100%;
+  background-color:#1d1d1d;
+  border-left: 2px solid #a46adf;
+  animation: typing 3s steps(40) infinite;
+}
+
+@keyframes slide 
+{
+  100% 
+  {
+    top: -420px
+  }
+}
  }

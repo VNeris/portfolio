@@ -6,7 +6,7 @@ import { SiGmail } from "react-icons/si";
 
 export const Footer = () => {
   return (
-    <section id="Contatos" className="px-5 p-8 bg-black bg-opacity-30 flex w-full justify-around">
+    <section id="Contatos" className="px-10 sm:px-5 p-8 bg-black bg-opacity-30 flex w-full justify-around">
         <div className="flex w-full max-w-screen-xl relative gap-5 items-center justify-start flex-col sm:flex-row sm:justify-around">
 
 

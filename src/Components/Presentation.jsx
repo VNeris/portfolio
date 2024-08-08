@@ -15,8 +15,8 @@ export const Presentation = () => {
       {/*TEXTO APRESENTAÇÃO*/}
 
         <div className="flex justify-center items-center">
-                <div data-aos="fade-right" data-aos-duration="1500" className="wrapper relative xl:text-3xl text-2xl ps-5 flex flex-col text-[#a46adf] gap-y-2 tracking-wide">Olá, sou 
-                    <span className="xl:text-7xl text-6xl text-white shadow-xl shadow-primary-200 font-semibold z-10">Vinicius Neris.</span>
+                <div data-aos="fade-right" data-aos-duration="1500" className="wrapper relative xl:text-3xl text-xl ps-5 flex flex-col text-[#a46adf] gap-y-2 tracking-wide">Olá, sou 
+                    <span className="xl:text-7xl text-5xl text-white shadow-xl shadow-primary-200 font-semibold z-10">Vinicius Neris.</span>
                     <ul className='dynamic-texts text-white text-4xl z-0'>
                       <li>
                         <span>
@@ -56,7 +56,7 @@ export const Presentation = () => {
 
 
           <div data-aos="zoom-in" data-aos-duration="1500" className="container">
-            <div className="animation flex justify-center items-center z-10 opacity-50 lg:opacity-100">
+            <div className="animation flex justify-center items-center z-10 opacity-30 lg:opacity-100">
               <div className="pulse animate-pulse-slow">
                 <span style={{"--i":1}}></span>
                 <span style={{"--i":2}}></span>
