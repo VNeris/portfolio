@@ -21,7 +21,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+html {
   @apply relative w-screen h-auto overflow-x-hidden
 }
 
@@ -152,7 +152,6 @@ body {
 }
 
 
-
 ::-webkit-scrollbar {
   width: 8px;
   
@@ -227,7 +226,7 @@ body {
 {
   0% 
   {
-    width: 420px;
+    width: 380px;
     height: 500px;
     opacity: 1;
   }
@@ -237,7 +236,7 @@ body {
   }
   100% 
   {
-    width: 700px;
+    width: 680px;
     height:700px;
     opacity: 0;
   }

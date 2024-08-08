@@ -23,7 +23,7 @@ export const Presentation = () => {
                           Front-end Development
                         </span>
                       </li>
-                      <li className="design">
+                      <li>
                         <span>
                           UI Designer
                         </span>
