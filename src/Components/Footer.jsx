@@ -6,13 +6,13 @@ import { SiGmail } from "react-icons/si";
 
 export const Footer = () => {
   return (
-    <section id="Contatos" className="px-10 sm:px-5 p-8 bg-black bg-opacity-30 flex w-full justify-around">
+    <section id="Contatos" className="px-5 p-8 bg-black bg-opacity-30 flex w-full justify-around">
         <div className="flex w-full max-w-screen-xl relative gap-5 items-center justify-start flex-col sm:flex-row sm:justify-around">
 
 
              {/*CONTATOS*/}
 
-             <ul className="flex justify-around items-center text-amethyst-600 gap-10 font-semibold">
+             <ul className="flex justify-around items-center text-xl text-amethyst-600 w-100 gap-5 font-semibold">
                 Contatos:
 
                 <li>
