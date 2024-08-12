@@ -25,7 +25,7 @@ export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="items-center sticky top-0 text-white backdrop-blur-md bg-primary-200 rounded-xl z-30">
+        <header className="navbar items-center text-white backdrop-blur-md bg-primary-200">
             <nav className="flex justify-around py-8 px-5 container sm:px-10">
                 <a href="#">
                     <h1 className="shadow-2xl hover:text-[#a46adf] font-serif text-3xl text flex gap-3 items-center">
@@ -47,17 +47,17 @@ export const Navbar = () => {
                 </div>
                 <div className='md:hidden block'>
                     <button onClick={() => setIsOpen(!isOpen)} className="hover:text-amethyst-600 p-2 rounded bg-neutral-800">
-                        {isOpen ? <X /> : <Menu className='text-xl'/>}
+                        {isOpen ? <X /> : <Menu className='text-xl' />}
                     </button>
                 </div>
 
                 {isOpen &&
-                    <div className="block md:hidden mx-auto w-11/12 absolute top-20 right-0 left-0 md:px-5 px-3 bg-neutral-900 border-l-4 border-amethyst-600  py-6 rounded-lg">
-                        <ul className="flex flex-col text-xl items-start">
+                    <div id='menu' className="block md:hidden mx-auto w-11/12 absolute top-20 right-0 left-0 md:px-5 px-3 bg-neutral-900 border-l-4 border-amethyst-600  py-6 rounded-lg">
+                        <ul  className="flex flex-col text-xl items-start">
                             {links.map((link, index) => {
                                 return (
                                     <li key={index} className="hover:bg-amethyst-600 w-full">
-                                        <a href={link.url} className="py-4 px-3 block w-full">
+                                        <a href={link.url} onClick={() => setIsOpen(!isOpen)} className="py-4 px-3 block w-full">
                                             {link.label}
                                         </a>
                                     </li>
@@ -68,6 +68,7 @@ export const Navbar = () => {
                 }
             </nav>
         </header>
+        
     )
 }
 

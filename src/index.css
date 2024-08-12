@@ -30,6 +30,13 @@ html {
   padding: 0;
   margin: 0;
 }
+.navbar {
+            position: fixed; /* Mantém a navbar fixa no topo */
+            top: 0;
+            width: 100%;
+            z-index: 1000; /* Garante que a navbar fique acima de outros elementos */
+        }
+
 .container {
     display: flex;
     max-height: 680px;
