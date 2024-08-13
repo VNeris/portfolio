@@ -42,7 +42,7 @@ export const Footer = () => {
 
                   {/*FOOTER*/}
             <div className=''>
-                  <div className="px-9">Copyright © 2024
+                  <div className="px-2 md:px-9">Copyright © 2024
                     <a href="https://github.com/VNeris/" target="_blank"className="text-amethyst-600 hover:text-amethyst-400 px-2">
                         VNeris.
                     </a>
