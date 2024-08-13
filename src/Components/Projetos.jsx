@@ -4,6 +4,7 @@ import Snake from '../assets/snake-game-project.png'
 import Blk from '../assets/blue-lock-blog-project.png'
 import Coffe from '../assets/diamond-coffe-project.png'
 import Pizza from '../assets/labrava-pizza-project.png'
+import Pokedex from '../assets/pokedex-project.png'
 
 export const Projetos = () => {
 
@@ -30,6 +31,14 @@ export const Projetos = () => {
             <p className="mt-5 border border-amethyst-800 rounded-xl p-3">Utilizando de React, Vite e Tailwind, Website animado sobre novas tecnologias   espaciais. by @VNeris</p>
           </div>
 
+          <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
+            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold'>Pokedex</h1>
+            <a target="_blank" href="https://vneris.github.io/pokedex/">
+              <img src={Pokedex} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
+            </a>
+            <p className="mt-5 border border-amethyst-800 rounded-xl p-3">Utilizando Javascript com integração de uma API, uma pokedex interativa com pokemons animados. by @VNeris
+            </p>
+          </div>
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold'>Snake Game</h1>
@@ -40,6 +49,7 @@ export const Projetos = () => {
               <span className='text-amethyst-600'> (movimento da cobra feito apenas com as setas do teclado)</span>. by @VNeris
             </p>
           </div>
+
 
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
