@@ -1,7 +1,7 @@
   import React from 'react'
 import { FaReact, FaGithub, FaBootstrap, FaFigma, FaNodeJs, FaWordpress  } from "react-icons/fa";
   import { RiTailwindCssFill } from "react-icons/ri";
-  import { SiJquery, SiAdobeaftereffects, SiAdobephotoshop } from "react-icons/si";
+  import { SiJquery, SiAdobeaftereffects } from "react-icons/si";
   import { IoLogoJavascript } from "react-icons/io5";
   import { FaGitAlt } from "react-icons/fa6";
   import { TbBrandVite } from "react-icons/tb";
