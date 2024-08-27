@@ -5,6 +5,7 @@ import Blk from '../assets/blue-lock-blog-project.png'
 import Coffe from '../assets/diamond-coffe-project.png'
 import Pizza from '../assets/labrava-pizza-project.png'
 import Pokedex from '../assets/pokedex-project.png'
+import Carrinho from '../assets/carrinho-de-compras-project.png'
 
 export const Projetos = () => {
 
@@ -22,21 +23,33 @@ export const Projetos = () => {
 
         {/*PROJETOS*/}
 
+        
+
         <div className="grid gap-5 grid-col w-[500px] sm:w-full sm:grid-cols-2 relative p-20">
+
+          <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
+            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold'>Carrinho de Compras</h1>
+            <a target="_blank" href="#">
+              <img src={Carrinho} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
+            </a>
+            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Este é um projeto de carrinho de compras desenvolvido com React JS. Ele permite listar produtos na tela, buscar produtos consumindo a API do Mercado Livre, adicionar produtos e remover produtos do carrinho. By @Vneris</p>
+          </div>
+
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl ">
             <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold'>Spaces</h1>
             <a target="_blank" href="https://vneris.github.io/spaces/">
               <img src={Spaces} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
-            <p className="mt-5 border border-amethyst-800 rounded-xl p-3">Utilizando de React, Vite e Tailwind, Website animado sobre novas tecnologias   espaciais. by @VNeris</p>
+            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Explore o futuro da exploração espacial com nosso site interativo, criado com React, Vite e Tailwind CSS. Mergulhe em inovações espaciais com uma experiência de design moderno, desempenho rápido e animações envolventes. By @VNeris.</p>
           </div>
+
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold'>Pokedex</h1>
             <a target="_blank" href="https://vneris.github.io/pokedex/">
               <img src={Pokedex} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
-            <p className="mt-5 border border-amethyst-800 rounded-xl p-3">Utilizando Javascript com integração de uma API, uma pokedex interativa com pokemons animados. by @VNeris
+            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Explore uma Pokédex interativa criada com JavaScript e integração com uma API, com Pokémons animados. Oferecendo uma experiência visual envolvente e dinâmica. by @VNeris
             </p>
           </div>
 
@@ -45,8 +58,7 @@ export const Projetos = () => {
             <a target="_blank" href="https://vneris.github.io/Snake-Game/">
               <img src={Snake} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
-            <p className="mt-5 border border-amethyst-800 rounded-xl p-3">Usando Javascript como base, um clássico dos anos 90, o jogo da cobrinha com  interface de pontuação
-              <span className='text-amethyst-600'> (movimento da cobra feito apenas com as setas do teclado)</span>. by @VNeris
+            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Reviva o clássico dos anos 90 com uma recriação do jogo da cobrinha, desenvolvido em JavaScript. Com uma interface de pontuação e <span className='text-amethyst-600'>controle de movimento apenas pelas setas do teclado</span>, oferecendo uma experiência nostálgica e divertida. by @VNeris
             </p>
           </div>
 
@@ -57,7 +69,7 @@ export const Projetos = () => {
             <a target="_blank" href="https://vneris.github.io/blue-lock-blog/">
               <img src={Blk} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
-            <p className="mt-5 border border-amethyst-800 rounded-xl p-3">Site criado em formato de blog focado no anime japonês Blue Lock, utilizando Bootstrap em diversas páginas. by @VNeris</p>
+            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Este site em formato de blog utiliza Bootstrap para criar uma experiência responsiva e estilizada em diversas páginas HTML5. Focado no anime japonês Blue Lock, oferece um design moderno e acessível para fãs e seguidores. by @VNeris</p>
           </div>
 
 
@@ -66,7 +78,7 @@ export const Projetos = () => {
             <a target="_blank" href="https://vneris.github.io/diamond-coffee/">
               <img src={Coffe} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
-            <p className="mt-5 border border-amethyst-800 rounded-xl p-3">LandingPage de uma cafeteria com shopping e menu, usando a biblioteca do   Bootstrap. by @VNeris</p>
+            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Esta Landing Page para uma cafeteria utiliza a biblioteca Bootstrap para criar um design moderno e responsivo. Inclui seções de shopping e menu, proporcionando uma experiência visualmente atraente e funcional para visitantes e clientes. by @VNeris</p>
           </div>
 
 
@@ -75,7 +87,7 @@ export const Projetos = () => {
             <a target="_blank" href="https://vneris.github.io/labrava-pizzaria/">
               <img src={Pizza} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
-            <p className="mt-5 border border-amethyst-800 rounded-xl p-3">LandingPage de uma Pizzaria com shopping e serviços, usando apenas HTML5 + CSS3 + Javascript. by @VNeris</p>
+            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Esta Landing Page para uma pizzaria utiliza HTML5, CSS3 e JavaScript para oferecer uma experiência interativa e estilizada. Inclui seções de shopping e serviços, proporcionando uma navegação intuitiva e visualmente atraente para clientes.</p>
           </div>
         </div>
 

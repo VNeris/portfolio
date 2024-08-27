@@ -1,5 +1,5 @@
   import React from 'react'
-  import { FaReact, FaGithub, FaBootstrap, FaFigma, FaNodeJs  } from "react-icons/fa";
+import { FaReact, FaGithub, FaBootstrap, FaFigma, FaNodeJs, FaWordpress  } from "react-icons/fa";
   import { RiTailwindCssFill } from "react-icons/ri";
   import { SiJquery, SiAdobeaftereffects, SiAdobephotoshop } from "react-icons/si";
   import { IoLogoJavascript } from "react-icons/io5";
@@ -74,6 +74,11 @@
         text: 'After Effects',
         color: '#5C1D9C'
       },
+    {
+      label: <FaWordpress />,
+      text: 'WordPress',
+      color: '#01579B'
+    },
   ]
 
       return (
