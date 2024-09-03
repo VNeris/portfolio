@@ -137,7 +137,7 @@ import { FaReact, FaGithub, FaBootstrap, FaFigma, FaNodeJs, FaWordpress  } from 
                 <aside data-aos="zoom-in" className="grid lg:grid-cols-2 sm:grid-cols-3 grid-cols-2 gap-5 gap-y-10 mt-20">
                 {tec.map((tec, index) => {
                     return (
-                        <div key={index} style={{color:tec.color}} className='text-5xl animate-bounce cursor-default text-amethyst-600 flex flex-col items-center gap-4'>
+                        <div key={index} style={{color:tec.color}} className='text-5xl cursor-default text-amethyst-600 flex flex-col items-center gap-4'>
                           {tec.label}
                           <p className='text-white text-lg items-center justify-center flex'>{tec.text}</p>
                         </div>
