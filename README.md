@@ -1,8 +1,15 @@
-# React + Vite
+# Portfólio de VNeris
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio! Este repositório contém uma coleção dos meus projetos e realizações mais recentes, demonstrando minhas habilidades e experiência em desenvolvimento web.
 
-Currently, two official plugins are available:
+Visão Geral
+Este portfólio inclui exemplos de projetos que mostram minha experiência em desenvolvimento front-end.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Contato
+Você pode me encontrar e entrar em contato através dos seguintes canais:
+
+Email: vinipaiva50@gmail.com
+LinkedIn: (https://www.linkedin.com/in/vinicius-neris-b49b602b6/)
+GitHub: https://github.com/VNeris
+Website: https://vneris.github.io/portfolio/
