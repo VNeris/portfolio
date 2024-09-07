@@ -31,7 +31,7 @@ export const Projetos = () => {
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold'>Dashboard Doflamingo(em andamento)</h1>
-            <a target="_blank" href="https://carrinho-de-compras-taupe-three.vercel.app/">
+            <a target="_blank" href="https://doflamingo-dashboard.vercel.app/">
               <img src={Mingo} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
             <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> A dashboard Doflamingo está em desenvolvimento, focando em criar uma interface centralizada e intuitiva para monitoramento de métricas em tempo real e geração de relatórios personalizados. By @Vneris</p>
