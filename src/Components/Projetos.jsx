@@ -34,7 +34,7 @@ export const Projetos = () => {
             <a target="_blank" href="https://doflamingo-dashboard.vercel.app/">
               <img src={Mingo} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
-            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> A dashboard Doflamingo está em desenvolvimento, focando em criar uma interface centralizada e intuitiva para monitoramento de métricas em tempo real e geração de relatórios personalizados. By @Vneris</p>
+            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> A dashboard Doflamingo está em desenvolvimento, focando em criar uma interface centralizada e intuitiva para monitoramento de métricas em tempo real e geração de relatórios personalizados. By @VNeris</p>
           </div>
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
@@ -42,7 +42,7 @@ export const Projetos = () => {
             <a target="_blank" href="https://carrinho-de-compras-taupe-three.vercel.app/">
               <img src={Carrinho} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
-            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Este é um projeto de carrinho de compras desenvolvido com React JS. Ele permite listar produtos na tela, buscar produtos consumindo a API do Mercado Livre, adicionar produtos e remover produtos do carrinho. By @Vneris</p>
+            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Este é um projeto de carrinho de compras desenvolvido com React JS. Ele permite listar produtos na tela, buscar produtos consumindo a API do Mercado Livre, adicionar produtos e remover produtos do carrinho. By @VNeris</p>
           </div>
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl ">
