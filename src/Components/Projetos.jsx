@@ -30,7 +30,7 @@ export const Projetos = () => {
 
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
-            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold'>Dashboard Doflamingo(em andamento)</h1>
+            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold text-center'>Dashboard Doflamingo(em andamento)</h1>
             <a target="_blank" href="https://doflamingo-dashboard.vercel.app/">
               <img src={Mingo} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
@@ -38,7 +38,7 @@ export const Projetos = () => {
           </div>
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
-            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold'>Carrinho de Compras</h1>
+            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold text-center'>Carrinho de Compras</h1>
             <a target="_blank" href="https://carrinho-de-compras-taupe-three.vercel.app/">
               <img src={Carrinho} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
@@ -46,7 +46,7 @@ export const Projetos = () => {
           </div>
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl ">
-            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold'>Spaces</h1>
+            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold text-center'>Spaces</h1>
             <a target="_blank" href="https://vneris.github.io/spaces/">
               <img src={Spaces} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
@@ -55,7 +55,7 @@ export const Projetos = () => {
 
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
-            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold'>Pokedex</h1>
+            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold text-center'>Pokedex</h1>
             <a target="_blank" href="https://vneris.github.io/pokedex/">
               <img src={Pokedex} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
@@ -64,7 +64,7 @@ export const Projetos = () => {
           </div>
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
-            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold'>Snake Game</h1>
+            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold text-center'>Snake Game</h1>
             <a target="_blank" href="https://vneris.github.io/Snake-Game/">
               <img src={Snake} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
@@ -72,10 +72,8 @@ export const Projetos = () => {
             </p>
           </div>
 
-
-
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
-            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold'>Blue lock Blog</h1>
+            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold text-center'>Blue lock Blog</h1>
             <a target="_blank" href="https://vneris.github.io/blue-lock-blog/">
               <img src={Blk} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
@@ -84,7 +82,7 @@ export const Projetos = () => {
 
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
-            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold'>Diamond Coffee</h1>
+            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold text-center'>Diamond Coffee</h1>
             <a target="_blank" href="https://vneris.github.io/diamond-coffee/">
               <img src={Coffe} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
@@ -93,7 +91,7 @@ export const Projetos = () => {
 
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
-            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold'>Labrava Pizza</h1>
+            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold text-center'>Labrava Pizza</h1>
             <a target="_blank" href="https://vneris.github.io/labrava-pizzaria/">
               <img src={Pizza} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
