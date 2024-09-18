@@ -38,7 +38,7 @@ export const Presentation = () => {
               <a className="cursor-pointer" target="_blank" href="https://github.com/VNeris">
                 <FaGithubAlt className="xl:text-5xl text-4xl hover:text-amethyst-300 mt-2 rounded-full p-2 bg-black bg-opacity-10"></FaGithubAlt>
               </a>
-              <a className="cursor-pointer" target="_blank" href="https://www.linkedin.com/in/vinicius-paiva-b49b602b6/">
+              <a className="cursor-pointer" target="_blank" href="https://www.linkedin.com/in/vinicius-neris-b49b602b6/">
                 <TiSocialLinkedin className="xl:text-5xl text-4xl hover:text-amethyst-300 mt-2 rounded-full p-1 bg-black bg-opacity-10"></TiSocialLinkedin>
               </a>
               <a className="cursor-pointer" href="https://wa.me/977992725" target="_blank">
