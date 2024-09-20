@@ -6,7 +6,6 @@ import Coffe from '../assets/diamond-coffe-project.png'
 import Pizza from '../assets/labrava-pizza-project.png'
 import Pokedex from '../assets/pokedex-project.png'
 import Carrinho from '../assets/carrinho-de-compras-project.png'
-import Mingo from '../assets/mingo-project.png'
 
 export const Projetos = () => {
 
@@ -27,15 +26,6 @@ export const Projetos = () => {
         
 
         <div className="grid gap-5 grid-col w-[500px] sm:w-full sm:grid-cols-2 relative p-20">
-
-
-          <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
-            <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold text-center'>Dashboard Doflamingo(em andamento)</h1>
-            <a target="_blank" href="https://doflamingo-dashboard.vercel.app/">
-              <img src={Mingo} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
-            </a>
-            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> A dashboard Doflamingo está em desenvolvimento, focando em criar uma interface centralizada e intuitiva para monitoramento de métricas em tempo real e geração de relatórios personalizados. By @VNeris</p>
-          </div>
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold text-center'>Carrinho de Compras</h1>
