@@ -16,6 +16,5 @@ Você pode me encontrar e entrar em contato através dos seguintes canais:
   <li>Email: vinipaiva50@gmail.com</li>
   <li>LinkedIn: https://www.linkedin.com/in/vinicius-neris-b49b602b6/</li>
   <li>GitHub: https://github.com/VNeris</li>
-  <li>GitHub: https://github.com/VNeris</li>
 </ul>
 </main>
