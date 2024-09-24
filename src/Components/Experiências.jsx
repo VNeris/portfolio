@@ -5,6 +5,11 @@ import { FaReact, FaGithub, FaBootstrap, FaFigma, FaNodeJs, FaWordpress  } from 
   import { IoLogoJavascript } from "react-icons/io5";
   import { FaGitAlt } from "react-icons/fa6";
   import { TbBrandVite } from "react-icons/tb";
+  import { FaAngular, FaVuejs } from "react-icons/fa";
+  import { BiLogoTypescript } from "react-icons/bi";
+
+  
+
 
 
 
@@ -25,14 +30,24 @@ import { FaReact, FaGithub, FaBootstrap, FaFigma, FaNodeJs, FaWordpress  } from 
           color: '#39C1D7'
       },
       {
-          label: <FaGitAlt/>,
-          text: 'Git',
-          color: "#F4511E"
+        label: <BiLogoTypescript />,
+          text: 'Typescript',
+        color: "#007AD9"
       },
       {
           label: <FaGithub/>,
           text: 'Github',
           color: '#000000'
+      },
+      {
+        label: <FaVuejs />,
+        text: 'Vue.JS',
+        color: '#81C784'
+      },
+      {
+        label: <FaAngular />,
+        text: 'Angular',
+        color: '#F44336'
       },
       {
           label: <FaBootstrap/>,
@@ -63,16 +78,6 @@ import { FaReact, FaGithub, FaBootstrap, FaFigma, FaNodeJs, FaWordpress  } from 
           label: <IoLogoJavascript/>,
           text: 'Javascript',
           color:'#F7DF1E'
-      },
-      {
-        label: <SiJquery/>,
-        text: 'Jquery',
-        color: '#1266A9'
-      },
-      {
-        label: <SiAdobeaftereffects/>,
-        text: 'After Effects',
-        color: '#5C1D9C'
       },
     {
       label: <FaWordpress />,
