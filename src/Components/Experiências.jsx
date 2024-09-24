@@ -1,11 +1,9 @@
   import React from 'react'
 import { FaReact, FaGithub, FaBootstrap, FaFigma, FaNodeJs, FaWordpress  } from "react-icons/fa";
   import { RiTailwindCssFill } from "react-icons/ri";
-  import { SiJquery, SiAdobeaftereffects } from "react-icons/si";
   import { IoLogoJavascript } from "react-icons/io5";
-  import { FaGitAlt } from "react-icons/fa6";
   import { TbBrandVite } from "react-icons/tb";
-  import { FaAngular, FaVuejs } from "react-icons/fa";
+  import { FaSass, FaVuejs } from "react-icons/fa";
   import { BiLogoTypescript } from "react-icons/bi";
 
   
@@ -45,15 +43,20 @@ import { FaReact, FaGithub, FaBootstrap, FaFigma, FaNodeJs, FaWordpress  } from 
         color: '#81C784'
       },
       {
-        label: <FaAngular />,
-        text: 'Angular',
-        color: '#F44336'
+        label: <FaSass />,
+        text: 'Sass',
+        color: '#F06292'
+      },
+      {
+          label: <IoLogoJavascript/>,
+          text: 'Javascript',
+          color:'#F7DF1E'
       },
       {
           label: <FaBootstrap/>,
           text:'Bootstrap',
           color:'#9C55D4'
-      },
+        },
       {
           label: <FaFigma/>,
           text:'Figma',
@@ -73,11 +76,6 @@ import { FaReact, FaGithub, FaBootstrap, FaFigma, FaNodeJs, FaWordpress  } from 
           label: <RiTailwindCssFill/>,
           text: 'Tailwind',
           color:'#00ACC1'
-      },
-      {
-          label: <IoLogoJavascript/>,
-          text: 'Javascript',
-          color:'#F7DF1E'
       },
     {
       label: <FaWordpress />,
