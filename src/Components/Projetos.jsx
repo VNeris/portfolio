@@ -8,8 +8,6 @@ import Pokedex from '../assets/pokedex-project.png'
 import Carrinho from '../assets/carrinho-de-compras-project.png'
 import Mingo from '../assets/mingo-project.png'
 import Yugi from '../assets/yugioh-databook-project.png'
-import { PiGithubLogoBold } from "react-icons/pi";
-
 
 export const Projetos = () => {
 
@@ -35,8 +33,8 @@ export const Projetos = () => {
         <div className="grid gap-5 grid-col w-[500px] sm:w-full sm:grid-cols-2 relative p-20">
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
-               <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold text-center'>Yu-Gi-Oh! Databook(em andamento)</h1>
-            <a target="_blank" href="https://databook-yugioh-ojr0jtfr2-vneris-projects.vercel.app/">
+               <h1 className='flex text-2xl pb-2 items-center justify-center text-amethyst-600 font-bold text-center'>Yu-Gi-Oh! Databook</h1>
+            <a target="_blank" href="https://databook-yugioh.vercel.app/">
               <img src={Yugi} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
               <p className="mt-5 border border-amethyst-800 rounded-xl flex p-3"> Este projeto visa criar um Databook de cartas Yu-Gi-Oh! Ele permite que os usuários pesquisem e filtrem cartas de diversos tipos (monstros, magias, armadilhas, etc.), proporcionando uma experiência interativa para os fãs do jogo. By @VNeris
