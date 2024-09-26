@@ -6,14 +6,7 @@ import { FaReact, FaGithub, FaBootstrap, FaFigma, FaNodeJs, FaWordpress  } from 
   import { FaSass, FaVuejs } from "react-icons/fa";
   import { BiLogoTypescript } from "react-icons/bi";
 
-  
-
-
-
-
-
-
-
+ 
 
 
   export const Experiências = () => {
