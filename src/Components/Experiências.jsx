@@ -1,10 +1,14 @@
   import React from 'react'
-import { FaReact, FaGithub, FaBootstrap, FaFigma, FaNodeJs, FaWordpress  } from "react-icons/fa";
-  import { RiTailwindCssFill } from "react-icons/ri";
-  import { IoLogoJavascript } from "react-icons/io5";
+
+
+  import { FaReact, FaFigma, FaNodeJs } from "react-icons/fa";
+  import { RiTailwindCssFill, RiAngularjsLine, RiJavascriptLine, RiBootstrapLine, RiWordpressFill, RiGithubFill } from "react-icons/ri";
   import { TbBrandVite } from "react-icons/tb";
-  import { FaSass, FaVuejs } from "react-icons/fa";
-  import { BiLogoTypescript } from "react-icons/bi";
+  import { TbBrandTypescript, TbBrandNextjs } from "react-icons/tb";
+
+
+
+
 
  
 
@@ -20,33 +24,34 @@ import { FaReact, FaGithub, FaBootstrap, FaFigma, FaNodeJs, FaWordpress  } from 
           text: 'React.js',
           color: '#39C1D7'
       },
+    {
+      label: <RiJavascriptLine />,
+      text: 'Javascript',
+      color: '#F7DF1E'
+    },
       {
-        label: <BiLogoTypescript />,
-          text: 'Typescript',
-        color: "#007AD9"
+        label: <RiAngularjsLine />,
+          text: 'Angular',
+        color: "#B71C1C"
       },
       {
-          label: <FaGithub/>,
+        label: <RiGithubFill />,
           text: 'Github',
           color: '#000000'
       },
       {
-        label: <FaVuejs />,
-        text: 'Vue.JS',
-        color: '#81C784'
+        label: <TbBrandNextjs />,
+        text: 'Next.Js',
+        color: '#000000'
       },
       {
-        label: <FaSass />,
-        text: 'Sass',
-        color: '#F06292'
+        label: <TbBrandTypescript />,
+        text: 'Typescript',
+        color: '#16528C'
       },
+      
       {
-          label: <IoLogoJavascript/>,
-          text: 'Javascript',
-          color:'#F7DF1E'
-      },
-      {
-          label: <FaBootstrap/>,
+        label: <RiBootstrapLine />,
           text:'Bootstrap',
           color:'#9C55D4'
         },
@@ -71,7 +76,7 @@ import { FaReact, FaGithub, FaBootstrap, FaFigma, FaNodeJs, FaWordpress  } from 
           color:'#00ACC1'
       },
     {
-      label: <FaWordpress />,
+      label: <RiWordpressFill />,
       text: 'WordPress',
       color: '#01579B'
     },
