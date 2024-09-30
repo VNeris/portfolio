@@ -62,13 +62,13 @@ export const Projetos = () => {
 
         
 
-        <div className="grid gap-5 grid-col w-[500px] sm:w-full lg:grid-cols-2 xl:grid-cols-3 relative p-20">
+        <div className="grid gap-5 grid-col w-[500px] sm:w-full lg:grid-cols-2 relative p-20">
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <div style={styles.container}>
               <h1 style={styles.text} className=' underline'>DashBoard Doflamingo</h1>
-              <a href="https://doflamingo-dashboard.vercel.app/" target="_blank">
-                <CiLink style={styles.icon} className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-1" />
+              <a href="https://doflamingo-dashboard.vercel.app/"  target="_blank">
+                <CiLink style={styles.icon} className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
                 </a>
             </div>
             <a target="_blank" href="https://doflamingo-dashboard.vercel.app/">
@@ -84,7 +84,7 @@ export const Projetos = () => {
             <div style={styles.container}>
               <h1 style={styles.text}>Yu-Gi-Oh! Databook</h1>
               <a href="https://databook-yugioh.vercel.app/" target="_blank">
-                <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-1" />
+                <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
               </a>
             </div>
             <a target="_blank" href="https://databook-yugioh.vercel.app/">
@@ -100,7 +100,7 @@ export const Projetos = () => {
             <div style={styles.container}>
               <h1 style={styles.text}>Carrinho de Compras</h1>
               <a href="https://carrinho-de-compras-taupe-three.vercel.app/" target="_blank">
-                <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-1" />
+                <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
               </a>
             </div>
             <a target="_blank" href="https://carrinho-de-compras-taupe-three.vercel.app/">
@@ -116,7 +116,7 @@ export const Projetos = () => {
             <div style={styles.container}>
               <h1 style={styles.text}>Spaces</h1>
               <a href="https://vneris.github.io/spaces/" target="_blank">
-                <CiLink style={styles.icon} className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-1" />
+                <CiLink style={styles.icon} className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
               </a>
             </div>
             <a target="_blank" href="https://vneris.github.io/spaces/">
@@ -132,8 +132,8 @@ export const Projetos = () => {
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <div style={styles.container}>
               <h1 style={styles.text}>Pokedex</h1>
-              <a href="https://vneris.github.io/pokedex/" target="_blank">
-                <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-1" />
+              <a href="" target="_blank">
+                <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
               </a>
             </div>
             <a target="_blank" href="https://vneris.github.io/pokedex/">
@@ -149,8 +149,8 @@ export const Projetos = () => {
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <div style={styles.container}>
               <h1 style={styles.text}>Snake Game</h1>
-              <a href="https://vneris.github.io/Snake-Game/" target="_blank">
-                <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-1" />
+              <a href="" target="_blank">
+                <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
              </a>
             </div>
             <a target="_blank" href="https://vneris.github.io/Snake-Game/">
@@ -166,8 +166,8 @@ export const Projetos = () => {
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <div style={styles.container}>
               <h1 style={styles.text}>Blue lock Blog</h1>
-              <a href="https://vneris.github.io/blue-lock-blog/" target="_blank">
-                <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-1" />
+              <a href="" target="_blank">
+                <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
               </a>
             </div>
             <a target="_blank" href="https://vneris.github.io/blue-lock-blog/">
@@ -183,8 +183,8 @@ export const Projetos = () => {
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <div style={styles.container}>
               <h1 style={styles.text}>Diamond Coffee</h1>
-              <a href="https://vneris.github.io/diamond-coffee/" target="_blank">
-                <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-1" />
+              <a href="" target="_blank">
+                <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
               </a>
             </div>
             <a target="_blank" href="https://vneris.github.io/diamond-coffee/">
@@ -201,13 +201,13 @@ export const Projetos = () => {
             <div style={styles.container}>
               <h1 style={styles.text}>LaBrava Pizzaria</h1>
               <a target="_blank" href="https://vneris.github.io/labrava-pizzaria/">
-                <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-1" />
+                <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
               </a>
             </div>
               <a target="_blank" href="https://vneris.github.io/labrava-pizzaria/">
               <img src={Pizza} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
-            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Esta Landing Page para uma pizzaria utiliza HTML5, CSS3 e JavaScript para oferecer uma experiência interativa e estilizada. Inclui seções de shopping e serviços, proporcionando uma navegação intuitiva e visualmente atraente para clientes.</p>
+            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Esta Landing Page para uma pizzaria utiliza HTML5, CSS3 e JavaScript para oferecer uma experiência interativa e estilizada. Inclui seções de shopping e serviços, proporcionando uma navegação intuitiva e visualmente atraente para clientes. by @VNeris</p>
           </div>
 
 
