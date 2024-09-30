@@ -132,7 +132,7 @@ export const Projetos = () => {
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <div style={styles.container}>
               <h1 style={styles.text}>Pokedex</h1>
-              <a href="" target="_blank">
+              <a href="https://vneris.github.io/pokedex/" target="_blank">
                 <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
               </a>
             </div>
@@ -149,7 +149,7 @@ export const Projetos = () => {
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <div style={styles.container}>
               <h1 style={styles.text}>Snake Game</h1>
-              <a href="" target="_blank">
+              <a href="https://vneris.github.io/Snake-Game/" target="_blank">
                 <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
              </a>
             </div>
@@ -166,7 +166,7 @@ export const Projetos = () => {
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <div style={styles.container}>
               <h1 style={styles.text}>Blue lock Blog</h1>
-              <a href="" target="_blank">
+              <a href="https://vneris.github.io/blue-lock-blog/" target="_blank">
                 <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
               </a>
             </div>
@@ -183,7 +183,7 @@ export const Projetos = () => {
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <div style={styles.container}>
               <h1 style={styles.text}>Diamond Coffee</h1>
-              <a href="" target="_blank">
+              <a href="https://vneris.github.io/diamond-coffee/" target="_blank">
                 <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
               </a>
             </div>
