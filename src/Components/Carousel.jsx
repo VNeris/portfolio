@@ -139,13 +139,13 @@ const Carousel = () => {
 
           {/* Container do carrossel */}
 
-          <div data-aos="zoom-out" data-aos-duration="1300" className="flex transition-all duration-1000 ease-in-out">
+          <div data-aos="zoom-out" data-aos-duration="1300" className="flex transition-all duration-1000 ease-in-out items-stretch">
 
             {/* Exibir 2 slides por vez */}
             
             {cards.slice(currentIndex, currentIndex + 2).map((card, index) => (
-              <div key={index} className="flex justify-center items-center w-full px-2">
-                <div className="bg-black bg-opacity-30 p-5 rounded-xl flex flex-col justify-between h-[600px]">
+              <div key={index} className="flex justify-center items-center w-full px-2 h-full">
+                <div className="bg-black bg-opacity-30 p-5 rounded-xl flex flex-col ">
                   <div style={styles.container}>
                     <h1 style={styles.text}>{card.title}</h1>
                     <a href={card.extraLink} className="hidden sm:flex" target="_blank" rel="noopener noreferrer">
@@ -178,4 +178,3 @@ const Carousel = () => {
     };
   
   export default Carousel;
-

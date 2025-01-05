@@ -22,7 +22,7 @@ function App() {
       <Presentation />
       <Sobre />
       <Experiências />
-      <Carousel />
+      <Projetos />
       <Footer></Footer>
     </>
   )
