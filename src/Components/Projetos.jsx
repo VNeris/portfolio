@@ -65,21 +65,7 @@ export const Projetos = () => {
 
         <div className="grid gap-5 grid-col w-[500px] sm:w-full lg:grid-cols-2 relative p-20">
 
-          <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
-            <div style={styles.container}>
-              <h1 style={styles.text}>Weather App</h1>
-              <a href="https://doflamingo-dashboard.vercel.app/"  className="hidden sm:flex" target="_blank">
-                <CiLink style={styles.icon} className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
-                </a>
-            </div>
-            <a target="_blank" href="https://weather-app-khaki-omega-71.vercel.app/">
-              <img src={Weather} className="max-w-full h-auto border border-amethyst-800 rounded-xl" alt="" />
-            </a>
-            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Aplicativo simples e eficiente que fornece dados meteorológicos em tempo real, incluindo temperatura, umidade, velocidade do vento e outras condições climáticas, com base na sua localização ou qualquer cidade ao redor do mundo. By @VNeris</p>
-          </div>
-
-
-
+          
           
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <div style={styles.container}>
@@ -127,7 +113,18 @@ export const Projetos = () => {
           </div>
 
 
-
+          <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
+            <div style={styles.container}>
+              <h1 style={styles.text}>Weather App</h1>
+              <a href="https://weather-app-khaki-omega-71.vercel.app/"  className="hidden sm:flex" target="_blank">
+                <CiLink style={styles.icon} className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
+                </a>
+            </div>
+            <a target="_blank" href="https://weather-app-khaki-omega-71.vercel.app/">
+              <img src={Weather} className="max-w-full h-auto border border-amethyst-800 rounded-xl" alt="" />
+            </a>
+            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Aplicativo simples e eficiente que fornece dados meteorológicos em tempo real, incluindo temperatura, umidade, velocidade do vento e outras condições climáticas, com base na sua localização ou qualquer cidade ao redor do mundo. By @VNeris</p>
+          </div>
 
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
