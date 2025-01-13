@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Menu, X } from "lucide-react";
-import Icon from '.../../../assets/astronauto.png'
 
 const links = [
     {
@@ -10,6 +9,10 @@ const links = [
     {
         label: 'Experiências',
         url: '#Experiências'
+    },
+    {
+        label: 'Serviços',
+        url: '#Services'
     },
     {
         label: 'Projetos',
