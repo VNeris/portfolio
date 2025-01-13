@@ -20,7 +20,7 @@ export const Services = () => {
         <section id="Services" className='flex flex-col mt-20 px-5 pt-40 w-full justify-center items-center'>
 
             <div>
-                <div data-aos="fade-up" className="grid grid-col place-content-center">
+                <div className="grid grid-col place-content-center">
                 <h1 className="text-3xl items-center flex font-semibold justify-center">Serviços</h1>
                 <span className="border-b-2 pb-3 max-w-2xl border-amethyst-600 w-80"></span>
                 </div>
