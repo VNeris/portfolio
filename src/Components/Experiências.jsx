@@ -97,13 +97,13 @@
                 <p className="text-lg mt-8 font-sans">Além de minhas habilidades técnicas, sou proativo e sempre em busca de novos desafios que me permitam crescer como desenvolvedor. Gosto de colaborar em equipe e acredito na importância de uma comunicação clara e eficaz. Estou constantemente explorando novas tecnologias e tendências do setor para aprimorar minhas habilidades e oferecer soluções inovadoras.</p>
               <div className='mt-2'>
                 <h2 className="text-xl text-amethyst-600 flex flex-col sm:flex-row items-center mt-10 font-semibold">Auxiliar de Reposição:
-                  <p className='text-base text-white px-2 font-normal'>Dufry 09/22 | 12/22</p>
+                  <p className='text-base text-white px-2 font-normal'>Dufry 09/2022 | 12/2022</p>
                 </h2>
                 <h2 className="text-xl text-amethyst-600 flex flex-col sm:flex-row items-center mt-10 font-semibold">Vendedor:
-                   <p className='text-base text-white px-2 font-normal'>Dubai 02/23 | 06/23</p>
+                   <p className='text-base text-white px-2 font-normal'>Dubai 02/2023 | 06/2023</p>
                 </h2>
                 <h2 className="text-xl text-amethyst-600 flex flex-col sm:flex-row items-center mt-10 font-semibold">Auxiliar de Produção:
-                   <p className='text-base text-white px-2 font-normal'>Brystol 08/23 | 01/24</p>
+                   <p className='text-base text-white px-2 font-normal'>Brystol 08/2023 | 01/2024</p>
                 </h2>
               </div>
 
@@ -114,19 +114,19 @@
               <span className="border-b-2 pb-3 border-amethyst-600"></span>
               <div className="grid grid-cols-1">
                 <h2 className="text-xl text-amethyst-600 flex flex-col sm:flex-row items-center mt-10 font-bold">Inglês:
-                  <p className='text-base text-white px-2 font-normal'>CNA 01/19 | 01/20</p>
+                  <p className='text-base text-white px-2 font-normal'>CNA 02/2019 | 02/2020</p>
                 </h2>
                 <h2 className="text-xl text-amethyst-600 flex flex-col sm:flex-row items-center mt-10 font-bold">Programação:
-                  <p className='text-base text-white px-2 font-normal items-center '>RocketSeat 01/24 | 06/24</p>
+                  <p className='text-base text-white px-2 font-normal items-center '>RocketSeat 01/2024 | 06/2024</p>
                 </h2>
                 <h2 className="text-xl text-amethyst-600 flex flex-col sm:flex-row items-center mt-10 font-bold">Design:
-                  <p className='text-base text-white px-2 font-normal'>Udemy 01/22 | 01/23</p>
+                  <p className='text-base text-white px-2 font-normal'>Udemy 01/2022 | 01/2023</p>
                 </h2>
                 <h2 className="text-xl text-amethyst-600 flex flex-col sm:flex-row items-center mt-10 font-bold">Marketing-Digital:
-                  <p className='text-base text-white px-2 font-normal'>Udemy 02/22 | 07/22</p>
+                  <p className='text-base text-white px-2 font-normal'>Udemy 02/2022 | 07/2022</p>
                 </h2>
                 <h2 className="text-xl text-amethyst-600 flex flex-col sm:flex-row items-center mt-10 font-bold">Informática:
-                  <p className='text-base flex text-white px-2 font-normal'>Logus 01/16 | 01/17</p>
+                  <p className='text-base flex text-white px-2 font-normal'>Logus 01/2016 | 01/2017</p>
                 </h2>
               </div>             
           </div>  

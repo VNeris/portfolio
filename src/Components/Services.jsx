@@ -20,18 +20,18 @@ export const Services = () => {
         <section id="Services" className='flex flex-col mt-20 px-5 pt-40 w-full justify-center items-center'>
 
             <div>
-                <div data-aos="fade-dowm" className="grid grid-col place-content-center">
+                <div data-aos="fade-up" className="grid grid-col place-content-center">
                 <h1 className="text-3xl items-center flex font-semibold justify-center">Serviços</h1>
                 <span className="border-b-2 pb-3 max-w-2xl border-amethyst-600 w-80"></span>
                 </div>
             </div>
             
 
-        <div className="grid gap-5 grid-col w-[500px] sm:w-full lg:grid-cols-2 xl:grid-cols-3 relative p-20">
+        <div className="grid gap-10 grid-col w-[500px] sm:w-full lg:grid-cols-2 xl:grid-cols-3 relative p-20">
 
-        <div data-aos="fade-left" data-aos-duration="800" className="p-10 bg-black bg-opacity-20 border hover:scale-105 ease-linear hover:shadow-xl shadow-black border-amethyst-400 h-40 items-center flex justify-center">
-                <div className="flex flex-col items-start text-wrap max-w-full h-auto"> 
-                    <div className="flex items-center justify-center w-full">
+        <div className="p-5 bg-black bg-opacity-20 border hover:scale-105 hover:shadow-xl ease-linear transition transform shadow-black border-amethyst-400 h-40 items-center flex justify-center">
+                <div className="flex cursor-default flex-col items-start text-wrap max-w-full h-auto"> 
+                    <div className="flex items-center  w-full">
                         <SiAltiumdesigner className="text-5xl m-2 bg-amethyst-500 rounded-full p-2"/>
                         <h4 className="text-xl text-left">UI/UX Design</h4>
                     </div>
@@ -39,9 +39,9 @@ export const Services = () => {
                 </div>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="1000" className="p-10 bg-black bg-opacity-20 border border-amethyst-400 h-40 hover:scale-105 ease-linear hover:shadow-xl shadow-black items-center flex justify-center">
-                <div className="flex flex-col items-start text-wrap"> 
-                    <div className="flex items-center justify-center w-full">
+            <div className="p-5 bg-black bg-opacity-20 border border-amethyst-400 h-40 hover:scale-105 ease-linear transition transform hover:shadow-xl shadow-black items-center flex ">
+                <div className=" cursor-default flex flex-col items-start text-wrap"> 
+                    <div className="flex items-center  w-full">
                         <CgWebsite className="text-5xl m-2 bg-amethyst-500 rounded-full p-2"/>
                         <h4 className="text-xl text-left">Web Design</h4>
                     </div>
@@ -49,9 +49,9 @@ export const Services = () => {
                 </div>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="1300" className="p-10 bg-black bg-opacity-20 border border-amethyst-400 hover:scale-105 ease-linear hover:shadow-xl shadow-black h-40 items-center flex justify-center">
-                <div className="flex flex-col items-start text-wrap"> 
-                    <div className="flex items-center justify-center w-full">
+            <div  className="p-5 bg-black bg-opacity-20 border border-amethyst-400 hover:scale-105 ease-linear transition transform hover:shadow-xl shadow-black h-40 items-center flex ">
+                <div className="flex cursor-default flex-col items-start text-wrap"> 
+                    <div className="flex items-center  w-full">
                         <IoCodeSlashOutline  className="text-5xl m-2 bg-amethyst-500 rounded-full p-2"/>
                         <h4 className="text-xl text-left">Desenvolvimento de Sites</h4>
                     </div>
@@ -59,9 +59,9 @@ export const Services = () => {
                 </div>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="1500" className="p-10 bg-black bg-opacity-20 border border-amethyst-400 hover:scale-105 ease-linear hover:shadow-xl shadow-black h-40 items-center flex justify-center">
-                <div className="flex flex-col items-start text-wrap"> 
-                    <div className="flex items-center justify-center w-full">
+            <div  className="p-5 bg-black bg-opacity-20 border border-amethyst-400 hover:scale-105 ease-linear hover:shadow-xl shadow-black transition transform h-40 items-center flex ">
+                <div className="flex cursor-default flex-col items-start text-wrap"> 
+                    <div className="flex items-center  w-full">
                         <AiOutlineSolution  className="text-5xl m-2 bg-amethyst-500 rounded-full p-2"/>
                         <h4 className="text-xl text-left">E-mail Marketing</h4>
                     </div>
@@ -69,19 +69,19 @@ export const Services = () => {
                 </div>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="1800" className="p-10 bg-black bg-opacity-20 border border-amethyst-400 hover:scale-105 ease-linear hover:shadow-xl shadow-black h-40 items-center flex justify-center">
-                <div className="flex flex-col items-start text-wrap"> 
-                    <div className="flex items-center justify-center w-full">
+            <div className="p-5 bg-black bg-opacity-20 border border-amethyst-400 hover:scale-105 ease-linear hover:shadow-xl shadow-black transition transform h-40 items-center flex ">
+                <div className="flex cursor-default flex-col items-start text-wrap"> 
+                    <div className="flex items-center  w-full">
                         <AiOutlineSignature  className="text-5xl m-2 bg-amethyst-500 rounded-full p-2"/>
                         <h4 className="text-xl text-left">Assinaturas de e-mail</h4>
                     </div>
-                    <p className="sm:text-base col-span-2 text-sm">Desenvolvimento de Assinaturas personalizadas, profissionais e compatíveis com diferentes plataformas.</p>
+                    <p className="sm:text-base col-span-2 text-sm">Desenvolvimento de Assinaturas personalizadas e compatíveis com diferentes plataformas.</p>
                 </div>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="2000" className="p-10  bg-black bg-opacity-20 border border-amethyst-400 hover:scale-105 ease-linear hover:shadow-xl shadow-black h-40 items-center flex justify-center">
-                <div className="flex flex-col items-start text-wrap"> 
-                    <div className="flex items-center justify-center w-full">
+            <div className="p-5 bg-black bg-opacity-20 border border-amethyst-400 hover:scale-105 ease-linear hover:shadow-xl shadow-black transition transform h-40 items-center flex ">
+                <div className="flex cursor-default flex-col items-start text-wrap"> 
+                    <div className="flex items-center  w-full">
                         <BiGame  className="text-5xl m-2 bg-amethyst-500 rounded-full p-2"/>
                         <h4 className="text-xl text-left">Jogos para Ativação</h4>
                     </div>

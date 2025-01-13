@@ -45,7 +45,7 @@ export const Presentation = () => {
                 <FaWhatsapp className="xl:text-5xl text-4xl mt-2 hover:text-amethyst-300 rounded-full p-2 bg-black bg-opacity-10" />
               </a>
               <a href={CV} target="_blank">
-                <button className=" flex rounded-full outline outline-offset-2 outline-amethyst-800 hover:outline-amethyst-500 drop-shadow-brilho-escuro hover:drop-shadow-brilho hover:bg-amethyst-600 text-white items-center lg:p-1 sm:w-40 text-xl xl:w-48 p-1 absolute sm:static top-80 right-9 sm: mt-2 bg-amethyst-900 flex-col">Curriculo pdf</button>
+                <button className=" flex rounded-full outline outline-offset-2 outline-amethyst-800 hover:outline-amethyst-500 drop-shadow-brilho-escuro hover:drop-shadow-brilho hover:bg-amethyst-600 text-white items-center lg:p-1 sm:w-40 text-xl xl:w-48 p-1 absolute sm:static top-80 right-9 sm: mt-2 bg-amethyst-900 flex-col">Curriculo.pdf</button>
               </a>
             </div>
           </div>
