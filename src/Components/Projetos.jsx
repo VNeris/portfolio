@@ -7,7 +7,7 @@ import Blk from '../assets/blue-lock-blog-project.png'
 import Coffe from '../assets/diamond-coffe-project.png'
 import Pizza from '../assets/labrava-pizza-project.png'
 import Pokedex from '../assets/pokedex-project.png'
-import Carrinho from '../assets/carrinho-de-compras-project.png'
+import Zen from '../assets/clinica-zen.png'
 import Weather from '../assets/weather-app.png'
 import Yugi from '../assets/yugioh-databook-project.png'
 
@@ -85,15 +85,15 @@ export const Projetos = () => {
 
           <div data-aos="zoom-out" data-aos-duration="1300" className="bg-black bg-opacity-30 p-5 rounded-xl">
             <div style={styles.container}>
-              <h1 style={styles.text}>Carrinho de Compras</h1>
-              <a href="https://carrinho-de-compras-taupe-three.vercel.app/" className="hidden sm:flex"  target="_blank">
+              <h1 style={styles.text}>Clinica - Zen</h1>
+              <a href="https://clinica-zen.vercel.app" className="hidden sm:flex"  target="_blank">
                 <CiLink style={styles.icon}  className="hover:bg-amethyst-800 rounded-full text-amethyst-600 hover:text-white p-2" />
               </a>
             </div>
-            <a target="_blank" href="https://carrinho-de-compras-taupe-three.vercel.app/">
-              <img src={Carrinho} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
+            <a target="_blank" href="https://clinica-zen.vercel.app">
+              <img src={Zen} className="max-w-full h-auto border border-amethyst-800  rounded-xl" alt="" />
             </a>
-            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Este é um projeto de carrinho de compras desenvolvido com React JS. Ele permite listar produtos na tela, buscar produtos consumindo a API do Mercado Livre, adicionar produtos e remover produtos do carrinho. By @VNeris</p>
+            <p className="mt-5 border border-amethyst-800 rounded-xl p-3"> Desenvolvi uma landing page para a Clínica Zen com foco em acupuntura, oferecendo um design moderno, responsivo e otimizado para conversões, destacando serviços e benefícios. By @VNeris</p>
           </div>
 
 
