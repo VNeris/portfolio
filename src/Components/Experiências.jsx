@@ -94,7 +94,7 @@
             <div data-aos="fade-up-right" className="flex flex-col px-5 lg:col-span-2">
               <h1 className="text-3xl items-center flex font-semibold">Experiências</h1>
               <span className="border-b-2 pb-3 border-amethyst-600"></span>
-                <p className="text-lg mt-8 font-sans"><G></G>osto de trabalhar em equipe e colaborar em projetos desafiadores, onde posso aprender e contribuir com minha visão criativa. Acredito que a programação é uma ferramenta poderosa para resolver problemas e criar conexões. Sempre busco entregar resultados que não só atendam às expectativas, mas também proporcionem experiências memoráveis para os usuários.</p>
+                <p className="text-lg mt-8 font-sans">Gosto de trabalhar em equipe e colaborar em projetos desafiadores, onde posso aprender e contribuir com minha visão criativa. Acredito que a programação é uma ferramenta poderosa para resolver problemas e criar conexões. Sempre busco entregar resultados que não só atendam às expectativas, mas também proporcionem experiências memoráveis para os usuários.</p>
               <div className='mt-2'>
                 <h2 className="text-xl text-amethyst-600 flex flex-col sm:flex-row items-center mt-10 font-semibold">Auxiliar de Reposição:
                   <p className='text-base text-white px-2 font-normal'>Dufry 09/2022 | 12/2022</p>
