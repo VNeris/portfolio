@@ -8,7 +8,6 @@ import Blk from '../assets/blue-lock-blog-project.png'
 import Coffe from '../assets/diamond-coffe-project.png'
 import Pizza from '../assets/labrava-pizza-project.png'
 import Pokedex from '../assets/pokedex-project.png'
-import Carrinho from '../assets/carrinho-de-compras-project.png'
 import Weather from '../assets/weather-app.png'
 import Yugi from '../assets/yugioh-databook-project.png'
 

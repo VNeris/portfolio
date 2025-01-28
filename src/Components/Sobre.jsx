@@ -27,7 +27,7 @@ export const Sobre = () => {
 				<div className="flex flex-col px-5 max-w-3xl">
 					<h1 data-aos="fade-up" className="text-3xl items-center flex font-semibold">Sobre</h1>
 					<span data-aos="fade-up" className="border-b-2 pb-3 border-amethyst-600"></span>
-					<p data-aos="fade-up" className="text-lg mt-3 font-sans"> Sou um desenvolvedor front-end com uma paixão por criar interfaces de usuário modernas e responsivas. Com uma sólida base em HTML, CSS e JavaScript, tenho experiência em construir sites e aplicações web que oferecem uma experiência de usuário intuitiva e eficiente. Minha jornada na programação começou há 1 ano, e desde então, tenho me dedicado a aprender e aplicar as melhores práticas de desenvolvimento front-end.</p>
+					<p data-aos="fade-up" className="text-lg mt-3 font-sans"> Sou um desenvolvedor front-end apaixonado por criar interfaces web modernas, responsivas e centradas no usuário. Tenho experiência com HTML, CSS, JavaScript e frameworks como React e TailwindCSS. Meu foco está em transformar ideias em experiências digitais intuitivas, sempre priorizando usabilidade, desempenho e design limpo. Estou em constante aprendizado e busco aprimorar minhas habilidades, explorando novas tecnologias para criar soluções inovadoras e de impacto.</p>
 					<div className="flex flex-col gap-5 mt-8">
 						<h3 data-aos="fade-up" className='font-semibold font-sans text-amethyst-600'>CONTATO:
 							<span className="text-lg font-normal text-white px-2"> (11) 97799 - 2725</span>
