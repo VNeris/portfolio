@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithubAlt } from "react-icons/fa";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { FaWhatsapp } from "react-icons/fa";
-import CV from '../assets/Vinicius Neris CV.pdf'
+import CV from '../assets/Vinicius Neris Curriculo.pdf'
 
 
 
